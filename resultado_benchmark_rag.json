@@ -1,0 +1,59 @@
+[
+  {
+    "id": 1,
+    "pergunta": "Qual foi o objetivo da dissertação entitulada 'Análise exploratória e prática da aplicação de NER em notícias sobre saúde' de Samuel Santana de Almeida ",
+    "sem_rag": {
+      "resposta": "O objetivo da dissertação “Análise exploratória e prática da aplicação de NER em notícias sobre saúde”, de Samuel Santana de Almeida, foi investigar, implementar e avaliar técnicas de Reconhecimento de Entidades Nomeadas (NER) aplicadas a textos jornalísticos da área da saúde, a fim de identificar e categorizar automaticamente entidades relevantes (como doenças, medicamentos, instituições e profissionais), analisar o desempenho dos modelos existentes e propor melhorias práticas para a extração de informação nesse domínio.",
+      "tempo_segundos": 1.37
+    },
+    "com_rag": {
+      "resposta": "O objetivo foi caracterizar o estado‑da‑arte das arquiteturas de Reconhecimento de Entidades Nomeadas (NER) aplicadas à área da saúde e identificar a abordagem mais eficaz para extração de entidades e classificação de texto em notícias sobre saúde, com foco na otimização da auditoria do SUS ao comparar o desempenho dos modelos BERT, BERT‑CRF e ModBERTBr.",
+      "tempo_retrieval_segundos": 0.075,
+      "tempo_llm_segundos": 1.14,
+      "tempo_total_segundos": 1.22,
+      "fontes_usadas": [
+        "Análise exploratória e prática da aplicação de NER em notícias sobre saúde",
+        "Análise exploratória e experimental sobre detecção inteligente de fake news",
+        "Uma análise exploratória e experimental de métodos de resumo automático de texto na saúde"
+      ]
+    }
+  },
+  {
+    "id": 2,
+    "pergunta": "Quantas arquiteturas foram comparadas na dissertação entitulada 'Análise comparativa de arquiteturas de Deep Learning para classificação de células leucêmicas' de Douglas Costa Braga",
+    "sem_rag": {
+      "resposta": "Desculpe, mas não disponho de informações sobre quantas arquiteturas foram comparadas na dissertação intitulada **“Análise comparativa de arquiteturas de Deep Learning para classificação de células leucêmicas”** de Douglas Costa Braga.",
+      "tempo_segundos": 0.82
+    },
+    "com_rag": {
+      "resposta": "Quatro arquiteturas foram comparadas.",
+      "tempo_retrieval_segundos": 0.035,
+      "tempo_llm_segundos": 0.88,
+      "tempo_total_segundos": 0.92,
+      "fontes_usadas": [
+        "Análise comparativa de arquiteturas de Deep Learning para classificação de células leucêmicas",
+        "Modelo combinado e interpretável para a classificação de células leucêmicas",
+        "Estudo comparativo do desempenho de bibliotecas para redes neurais convolucionais em diferentes microarquiteturas de GPU"
+      ]
+    }
+  },
+  {
+    "id": 3,
+    "pergunta": "A dissertação entitulada 'Framework para conformidade contínua com a LGPD: uma implementação com language server protocol em pipelines DevSecOps' de Denisson Santos Alves Freitas teve como objetivo desenvolver e validar o que?",
+    "sem_rag": {
+      "resposta": "A dissertação teve como objetivo **desenvolver e validar um framework que integra o Language Server Protocol (LSP) em pipelines DevSecOps, permitindo a conformidade contínua com a LGPD**.",
+      "tempo_segundos": 0.82
+    },
+    "com_rag": {
+      "resposta": "A dissertação teve como objetivo **desenvolver e validar um framework para a integração contínua da conformidade com a LGPD em pipelines DevSecOps, utilizando o Language Server Protocol (LSP) para análise estática de código**.",
+      "tempo_retrieval_segundos": 0.037,
+      "tempo_llm_segundos": 1.29,
+      "tempo_total_segundos": 1.33,
+      "fontes_usadas": [
+        "Framework para conformidade contínua com a LGPD: uma implementação com language server protocol em pipelines DevSecOps",
+        "Modelagem e análise do protocolo de roteamento Leach",
+        "Avaliação de desempenho de variantes dos Protocolos DCCP e TCP em cenários representativos"
+      ]
+    }
+  }
+]
