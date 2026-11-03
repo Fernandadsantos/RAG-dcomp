@@ -12,7 +12,7 @@ GROQ_API_KEY = os.getenv("API_KEY")
 
 llm = ChatGroq(
     groq_api_key=GROQ_API_KEY,
-    model_name="openai/gpt-oss-120b", # Nome correto do Llama 3 8B no Groq
+    model_name="openai/gpt-oss-120b", 
     temperature=0.1
 )
  
