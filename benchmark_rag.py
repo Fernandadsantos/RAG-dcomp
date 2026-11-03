@@ -17,10 +17,28 @@ llm = ChatGroq(
 )
  
 PERGUNTAS = [
-    "Qual foi o objetivo da dissertação entitulada 'Análise exploratória e prática da aplicação de NER em notícias sobre saúde' de Samuel Santana de Almeida ",
-    "Quantas arquiteturas foram comparadas na dissertação entitulada 'Análise comparativa de arquiteturas de Deep Learning para classificação de células leucêmicas' de Douglas Costa Braga",
-    "A dissertação entitulada 'Framework para conformidade contínua com a LGPD: uma implementação com language server protocol em pipelines DevSecOps' de Denisson Santos Alves Freitas teve como objetivo desenvolver e validar o que?"
+  "Qual foi o objetivo da dissertação de Samuel Santana de Almeida (Análise exploratória e prática da aplicação de NER em notícias sobre saúde) e quais modelos de Deep Learning baseados em Transformers foram comparados em seus experimentos?",
+  "Qual metodologia e tipo de rede o autor Jean Louis Silva Santos utilizou para gerar dados sintéticos voltados ao apoio à decisão na alta segura neonatal sem expor registros médicos reais?",
+  "Na dissertação de Douglas Costa Braga sobre classificação de células leucêmicas, qual arquitetura atingiu o maior F1-Score (97,89%) e qual a relevância constatada sobre mecanismos de ateção por canal?",
+  "Na pesquisa desenvolvida por João Alysson dos Santos Guimarães, quais métodos e algoritmos foram propostos para a tarefa de resumo automático de textos para auxílio na auditoria do SUS?",
+  "O trabalho de Denisson Santos Alves Freitas propôs um framework para conformidade contínua com a LGPD. Qual tecnologia/protocolo de análise estática de código foi utilizado em pipelines DevSecOps nessa solução?",
+  "Quais ferramentas e metodologias foram desenvolvidas por Waldson Rodrigues Cardoso na dissertação \"APSEA\" para atuar na conscientização e prevenção contra ataques de engenharia social?",
+  "Como a ferramenta Galactus Snitch, proposta por Luan Bruno Barbosa de Souza Costa, atua na identificação de riscos de fraudes (red flags) em contratos públicos no âmbito do GAECO/MPSE?",
+  "Qual a abordagem metodológica proposta por Laramy de Oliveira Carvalho para fazer a \"ponte entre a lei e o código\", visando padronizar os Registros Eletrônicos de Dados Governamentais (REDG)?",
+  "Na dissertação de Andre Reges Souza Meira, qual a principal constatação sobre o gap entre as arquiteturas de conjunto de instruções (ISA) ARM e RISC-V quando aplicadas a IA e robótica?",
+  "Qual combinação de protocolo da camada de aplicação e tipo de rede móvel apresentou o melhor desempenho para ultrapassagens seguras na pesquisa de Sandro Andrade Monteiro Menezes?",
+  "Ao analisar os protocolos IoT (MQTT e CoAP) em redes de satélites, quais duas órbitas (e provedores) foram avaliadas no estudo experimental de Rodrigo Cavalcante Faria?",
+  "Qual foi a ferramenta/plataforma desenvolvida por Camila Patrícia Cardoso dos Santos para monitoramento da mortalidade materna alinhada aos Objetivos de Desenvolvimento Sustentável (ODS)?",
+  "O framework ISAA, proposto por Gustavo dos Santos Melo, foi baseado em qual cláusula da norma ISO/IEC/IEEE 42020:2019 e em qual método clássico de avaliação de arquiteturas (ATAM)?",
+  "Na pesquisa de Diego de Jesus Santos, como a linguagem SysML foi avaliada e combinada com a UML para a engenharia de sistemas complexos no domínio automotivo?",
+  "Qual foi o foco e a proposta de modelo conceitual desenvolvido por Marcos Venícius Santos para estimativa de custos de desenvolvimento de software em Pequenas e Médias Empresas (PMEs)?",
+  "Qual técnica visual de alinhamento de requisitos e domínio de negócio foi estudada por Marcos Cesar Barbosa dos Santos em suas guidelines para a adoção de microsserviços?",
+  "Quais foram os principais efeitos e recursos (como RAM) afetados pelo envelhecimento de software (software aging) identificados por Paulo do Amaral Costa ao estressar seis SGBDs (relacionais e NoSQL)?",
+  "Na dissertação de Cristiano Lima Oliveira sobre reconhecedores automáticos de placas veiculares, como a escolha de funções de perda perceptuais (ex: VGG Loss vs. OCR Loss) influenciou a super-resolução sob degradações sintéticas?",
+  "De acordo com os experimentos de Antonio Carlos Sousa utilizando Knative, qual combinação de sistema operacional e plataforma de contêineres (Ubuntu, Debian, Docker, Podman) apresentou o melhor desempenho e eficiência?",
+  "Qual foi o método de reamostragem avaliado por Jesy Karolayne Sales dos Santos para a correção de viés na estimação de parâmetros de modelos de regressão Dirichlet aplicados a dados composicionais?"
 ]
+
 
 def rodar_benchmark():
     relatorio_experimento = []
